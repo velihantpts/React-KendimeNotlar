@@ -1,7 +1,7 @@
 # React-KendimeNotlar
 Bu repo şimdiye kadar öğrendiklerim ve gelecekte öğrenirken kendime rehber olması için notlardan oluşmaktadır.
 
-## Neden React ?
+##  Virtual DOM ve Real DOM nedir ?
 
 * React, Virtual DOM teknolojisi sayesinde performans ve verimlilik açısından büyük avantajlar sunuyor.
   DOM, HTML ve XML gibi bilgilerin programlama dilleri ile iletişim kurabilmesi için geliştirilmiş bir arabirimdir.
