@@ -3,7 +3,7 @@
 ### Component
 
 * React'ın temel yapı taşı componentlerdir. Örnegin html ile `<li>` `<\li>` etiketleri arasında `<a>` etiketi ile bir tıklanabilir liste oluşturduğumuzu düşünelim. Daha sonra bu listeyi CSS ile görünüşünü düzeltip,JavaScript ile dinamik hale getirelim.
-İşte tüm işlemleri React bize tek çatı altında yapma olanaığı sunuyor. Ve bu yapıyo `component` diyoruz. Örnegin bir Liste.jsx dosyasımızda bu yapıyı oluşturduğumuzu düşünelim. 
+İşte tüm işlemleri React bize tek çatı altında yapma olanaığı sunuyor. Ve bu yapıya `component` diyoruz. Örnegin bir Liste.jsx dosyasımızda bu yapıyı oluşturduğumuzu düşünelim. 
 Bu yapıyı her listeye ihtiyacımız olduğu zaman <Liste /> etiketi ile çağırabiliriz. React'ın component bazlı modüler yapısı da tam olarak burada başlıyor.
 Yine bir örnekle devam edelim, günümüz web sitelerinin tüm sayfalarında bir nagivasyon cubugu yani navbar bulunmakta. Bu navbarı React'ta bir Navbar componenti olarak tanımlayıp her sayfamızda
 ```
