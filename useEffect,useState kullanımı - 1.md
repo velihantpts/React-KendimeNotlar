@@ -1,12 +1,12 @@
 ###  useEffect - useState Örnek 1
 ```
- const [idCount, setIDSetCount] = useState(0);
+ const [idCount, setIDCount] = useState(0);
 
  useEffect(() => {
         fetch("/api/idCount") // Soru seti sayısını almak için API
             .then((response) => response.json())
             .then((data) => {
-                setIDSetCount(data.idCount);
+                setIDCount(data.idCount);
             })
             .catch((error) => {
                 console.error("ID sayısı alınamadı: ", error);
